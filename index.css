@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: green;
+}
+
+.score {
+    text-align: center;
+}
+
+.player {
+    margin: 5px;
+    padding: 5px
+}
+
+#players {
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+}
